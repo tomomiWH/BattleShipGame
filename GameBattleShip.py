@@ -484,7 +484,7 @@ def main():
 
     game.fire_torpedo('first', 'A8')
     game.fire_torpedo('second', 'I8')
-    # game.fire_torpedo('first', 'J2')
+    game.fire_torpedo('first', 'J2')
     # game.fire_torpedo('second', 'D3')
     # game.fire_torpedo('first', 'A1')
     # game.fire_torpedo('second', 'D4')
