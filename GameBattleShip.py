@@ -1,13 +1,12 @@
 # Author: Tomomi Watanabe Hudspath
 # GitHub username: tomomiWH
-# Date: 3/11/2022
+# Date: 5/31/2022
 # Description: The program simulates board game called Battleship. Two players play. Each player places ships on their
 # own board (10x10). First player fire a torpedo to opponent's grid square by indicating location of coordinate,
 # for example B7. If there is a ship on that grid, it is a hit, other wise it is a miss. Second player fire a torpedo
 # to opponent's grid square evaluates to see if it is a hit or miss. Repeat the process by player alternatively
 # take their turns by firing torpedo until opponent's all the squares hit and wins the game (a player sink
 # their opponent's final ship, they win.
-
 
 class ShipGame:
     """
